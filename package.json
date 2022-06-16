@@ -1,0 +1,29 @@
+{
+  "name": "aws-kms-cmk-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aw-birdgang/aws-kms-cmk-nodejs.git"
+  },
+  "author": "aw-birdgang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aw-birdgang/aws-kms-cmk-nodejs/issues"
+  },
+  "homepage": "https://github.com/aw-birdgang/aws-kms-cmk-nodejs#readme",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.0",
+    "dotenv": "^16.0.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@aws-crypto/client-node": "^3.1.1"
+  }
+}
