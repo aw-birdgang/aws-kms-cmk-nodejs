@@ -4,8 +4,6 @@ import {
     CommitmentPolicy,
 } from '@aws-crypto/client-node'
 
-
-
 const { encrypt, decrypt } = buildClient(
     CommitmentPolicy.REQUIRE_ENCRYPT_REQUIRE_DECRYPT
 )
@@ -26,7 +24,7 @@ export async function kmsSimpleTest() {
         origin: origin,
     }
 
-    const cleartext = '2a6ab9b5e44e0699f8bda63aa6a4576ed73bc89625ac6cd25f1245f6ee8c6f0a'
+    const cleartext = '이글은 곧 성지가 될 지어다.!!!'
     console.log("====== Original Text ======");
     console.log(cleartext);
 
